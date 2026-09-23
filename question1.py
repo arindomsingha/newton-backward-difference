@@ -2,9 +2,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 from newton_backward import newton_backward, print_difference_table
 
-x = np.array([0, 1, 2, 3, 4], dtype=float)
-y = np.array([1, 2, 4, 8, 16], dtype=float)
-target = 1.5
+x = np.array([100, 150, 200, 250, 300, 350, 400], dtype=float)
+y = np.array([10.63, 13.03, 15.04, 16.81, 18.42, 19.90, 21.27], dtype=float)
+target = 410
 
 result, table, h, p = newton_backward(x, y, target)
 
