@@ -1,3 +1,4 @@
+import os
 import numpy as np
 import matplotlib.pyplot as plt
 from newton_backward import newton_backward, print_difference_table
@@ -26,5 +27,6 @@ plt.scatter([target], [result], marker="x", s=80, label=f"Estimated value = {res
 plt.xlabel("x"); plt.ylabel("y")
 plt.title("Question 2: Newton's Backward Difference")
 plt.grid(True, alpha=0.3); plt.legend(); plt.tight_layout()
+os.makedirs("images", exist_ok=True)
 plt.savefig("images/question2_plot.png", dpi=160)
 plt.show()
