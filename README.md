@@ -2,19 +2,19 @@
 
 A Python implementation of the **Newton's Backward Difference Interpolation** method for solving numerical interpolation problems.
 
-## 📌 About
+## About
 
 Newton's Backward Difference method is a numerical interpolation technique used to estimate the value of a function from a given set of equally spaced data points.
 
 This project demonstrates the method by solving **two different numerical problems** using Python.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * **Python** — Core programming language
 * **NumPy** — Numerical calculations and array operations
 * **Matplotlib** — Data visualization and interpolation plots
 
-## 📐 Formula
+## Formula
 
 The Newton Backward Difference interpolation formula is:
 
@@ -35,7 +35,7 @@ $$
 * \(\nabla y_n\) = first backward difference
 * \(\nabla^2 y_n\) = second backward difference
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 newton-backward-difference/
@@ -48,7 +48,7 @@ newton-backward-difference/
 └── images/
 ```
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. Clone the repository
 
@@ -72,7 +72,7 @@ python question1.py
 python question2.py
 ```
 
-## 📊 Features
+## Features
 
 * Generates the backward difference table
 * Calculates the interpolation value
@@ -80,7 +80,7 @@ python question2.py
 * Provides graphical visualization using Matplotlib
 * Demonstrates Newton's Backward Difference method with two examples
 
-## 👨‍💻 Author
+## Author
 
 **Arindom Singha**
 
